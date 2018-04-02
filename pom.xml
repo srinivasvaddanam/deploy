@@ -24,29 +24,6 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<copyToAppsDirectory>false</copyToAppsDirectory>
-					<inclusions>
-						<inclusion>
-							<groupId>org.mule.modules</groupId>
-							<artifactId>mule-module-requester</artifactId>
-						</inclusion>
-						<inclusion>
-							<groupId>org.mule.modules</groupId>
-							<artifactId>edi-module-edifact</artifactId>
-						</inclusion>
-						<inclusion>
-							<groupId>com.mulesoft.security</groupId>
-							<artifactId>mule-module-security-property-placeholder</artifactId>
-						</inclusion>
-					</inclusions>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-app-maven-plugin</artifactId>
-				<version>${mule.tools.version}</version>
-				<extensions>true</extensions>
-				<configuration>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
