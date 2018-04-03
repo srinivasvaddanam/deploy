@@ -52,6 +52,7 @@
 					<target>${target}</target>
 					<!-- One of: server, serverGroup, cluster: -->
 					<targetType>${targetType}</targetType>
+					<businessGroup>Capgemini\India-AD&amp;I</businessGroup>
 					<environment>${env}</environment>
 				</configuration>
 				<executions>
